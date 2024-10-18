@@ -2,7 +2,7 @@ FROM python:3.10-bullseye
 LABEL maintainer "Seys Alain"
 ENV container "docker"
 
-WORKDIR /app
+WORKDIR /app/blog
 
 COPY requirements.txt .
 
