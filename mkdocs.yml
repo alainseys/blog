@@ -2,11 +2,17 @@ site_name: Blog
 nav: 
     - Home: index.md
     - About: about.md
-    - Ansible: Ansible/devcontainer.md
+    - Ansible: 
+        - Overview: Ansible/index.md
+        - Dev container: Ansible/devcontainer.md
+        - Molecule: Ansible/molecule.md
+        - Vault: Ansible/vault.md
+    - Tags: tags.md
 theme: material
 plugins:
     - awesome-pages
     - search
+    - git-authors
     - tags:
         enabled: true
 extra:
