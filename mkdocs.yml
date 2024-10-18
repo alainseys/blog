@@ -1,4 +1,11 @@
 site_name: Blog
 name: 
     - Home: index.md
+    - About: about.md
+    - Ansible: Ansible/ansible.md
 theme: material
+plugins:
+    - awesome-pages
+    - search
+extra:
+    images: images/
