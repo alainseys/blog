@@ -72,3 +72,5 @@ Now we have a pretty good base to work with to get strated with the dev containe
 When this is ready you can startup a new console and work in your project like you work on a server.
 
 Notice when you need extra dependencies you need to add them to your dockerfile
+
+[Sample Dev container](https://github.com/alainseys/Ansible-devcontainer)
