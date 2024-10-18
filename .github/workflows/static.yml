@@ -25,9 +25,9 @@ jobs:
         with:
           python-version: 3.9
       - name: Install dependencies
-        run: pip install -r ../requirements.txt
+        run: pip install -r requirements.txt
         working-directory: .github/workflows
-      - run: mkdocs gh-deploy --config-file ../../mkdocs.yml --force
+      - run: mkdocs gh-deploy --config-file mkdocs.yml --force
         working-directory: .github/workflows
 
   deploy_mkdocs:
