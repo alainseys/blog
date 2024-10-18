@@ -1,11 +1,13 @@
 site_name: Blog
-name: 
+nav: 
     - Home: index.md
     - About: about.md
-    - Ansible: Ansible/ansible.md
+    - Ansible: Ansible/devcontainer.md
 theme: material
 plugins:
     - awesome-pages
     - search
+    - tags:
+        enabled: true
 extra:
     images: images/
